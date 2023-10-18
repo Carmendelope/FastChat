@@ -1,0 +1,12 @@
+version: 0
+application:
+  language: python
+pre-build:
+  commands:
+  - cmd: "cd"
+    args:
+      - "FastChatd"
+  - cmd: "pip3"
+    args:
+      - "install"
+      - "-e"
